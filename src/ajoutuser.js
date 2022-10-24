@@ -8,7 +8,7 @@ export const Ajoutuser=()=>{
     const [prenom,setPrenom]=useState('')
     const [age,setAge]=useState('')
     const[createuser, loading, error,data]=useMutation(ajoutuser)
-    const [upditeuser]=useMutation(updituser)
+    const [upditeuser]=useMutation(updituser) 
     const [deletuser]=useMutation(deleteuser)
     if(error) return `err ${error}`
 
